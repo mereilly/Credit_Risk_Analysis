@@ -33,11 +33,14 @@ The purpose is mainly to establish which ML model is better at predicting credit
     - Random Forest Classifier : .74
     - EasyEnsemble AdaBoost Classifier  : .94
 
-Classification reports for 
+### Classification reports for 
 
-the ClusterCentroids Resampler 
+#### the ClusterCentroids Resampler: 
+![Screen Shot 2021-10-15 at 2 37 17 PM](https://user-images.githubusercontent.com/82982952/137536901-9bfd83a6-1347-4fe3-9b61-48de0b565620.png)
 
-and  EasyEnsemble AdaBoost Classifier :  
+#### and  EasyEnsemble AdaBoost Classifier :  
+![Screen Shot 2021-10-15 at 2 42 20 PM](https://user-images.githubusercontent.com/82982952/137536997-08e5b0b5-90f0-4c7e-aa37-f3ea356f4f4d.png)
+
 
 ## Summary: 
 When comparing just the scores from the resampling excercised rounded to the 100th decimal place, we can see the th ClusterCentroids Resampler method proves to be most effective by a narrow margin. But when we include the ensempble classifiers for the same consideration, there is no question the EasyEnsemble AdaBoost Classifier is far superior with about 95% accuracy and .94 recall. Thus, I would recommend we focus future efforts using thie EasyEnsemble AdaBoost Classifier  even if the initial tasks take a little longer, the objective was to craft RELIABLE predictions, a parameter that is prioritized above speed then. But, it didn't take too much longer in our simulations regardless.
